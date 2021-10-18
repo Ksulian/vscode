@@ -29,8 +29,12 @@ img{
     padding: 20px;
     margin: 0 10px 0 0;
     border: 1px solid #22ad78;
+    background-color: paleturquoise;
+    display: flex;
+    flex-direction: column;
 }
 h2{
     color:forestgreen;
     letter-spacing: 1.5px;
+    margin-bottom: 50px;
 }
