@@ -22,7 +22,10 @@ body{
 }
 .img img{
     width: 400px;
-    height: 300px;
+    height: 400px;
     margin: 0 0 0 30px;
     object-fit: cover;
+}
+.card{
+    border: 1px solid #22ad78;
 }
