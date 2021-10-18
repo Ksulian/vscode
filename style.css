@@ -29,12 +29,49 @@ img{
     padding: 20px;
     margin: 0 10px 0 0;
     border: 1px solid #22ad78;
-    background-color: paleturquoise;
+    background-color: rgb(222, 255, 221);
     display: flex;
     flex-direction: column;
+
 }
 h2{
     color:forestgreen;
     letter-spacing: 1.5px;
     margin-bottom: 50px;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.card__age{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(25, 75, 47);
+    margin-bottom: 15px;
+}
+.card__zodiac{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style:oblique;
+    margin-bottom: 15px;
+    color: rgb(16, 44, 28);
+}
+.card__profession{
+    font-size: 30px;
+    color: rgb(17, 51, 32);
+    font-style:oblique;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+}
+.card__link:hover{
+    color:rgb(41, 70, 9);
+    background-color: rgb(199, 175, 67);
+}
+.card__link{
+    color:lightseagreen;
+    background-color: lightyellow;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 15px 15px;
+    text-align: center;
 }
